@@ -25,7 +25,7 @@ class Item extends React.PureComponent {
     }
 
     return (
-      <div rootRef={(node) => itemRef(node)}>
+      <div ref={(node) => itemRef(node)}>
         <MenuItem
           className="country"
           data-dial-code="1"
